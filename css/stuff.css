@@ -1,10 +1,36 @@
+body {
+	margin: 0px;
+}
+
 nav {
 	position: fixed;
 	width: auto;
-	z-index: ;
-	border: ;
-	top: ;
-	margin-top: ;
-	font-size: ;
-	background-color: ;
+	z-index: 10;
+	border: solid;
+	top: 0px;
+	margin-top: 5px;
+	font-size: 16px;
+	background-color: rgb(39,170,225);
+}
+
+#nav-flex {
+	justify-content: space-between;
+	padding: 0px;
+	list-style: none;
+
+}
+
+
+li {
+    display: inline-grid;
+    list-style: none;
+    margin-left: 100px;
+  margin-right: auto;
+}
+
+a {
+  font-family: Myriad Pro;
+  font-size : 26px;
+  color : #231F20;
+  color : rgb(35, 31, 32);
 }
