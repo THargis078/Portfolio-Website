@@ -20,18 +20,26 @@ img {
 	width: 50%;
 	height: 50%;
 	align-content: center;
-
+	position: absolute;
+	left:25%;
 }
 
 #nav-flex {
-
 	display: flex;
 	justify-content: space-around;
 	padding: 0px;
 }
 
 #name {
-
+border: 1px solid red;
+	margin: auto;
+	padding: auto;
+	background-color: rgb(39,170,225);
+    width: 50%;
+	height: 75px;
+	font-size: 28px;
+	position: relative;
+	top: 550px;
 }
 
 li {
