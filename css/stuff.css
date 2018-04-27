@@ -1,8 +1,10 @@
 body {
 	margin: 0px;
+	border: 5px red;
 }
 
 nav {
+	k
 	position: fixed;
 	width: 100%;
 	z-index: 10px;
@@ -13,14 +15,24 @@ nav {
 	background-color: rgb(39,170,225);
 }
 
-#nav-flex {
-	display: flex;
-	justify-content: space-around;
-	padding: 0px;
-	list-style: none;
+img {
+	border: 5px red;
+	width: 50%;
+	height: 50%;
+	align-content: center;
 
 }
 
+#nav-flex {
+
+	display: flex;
+	justify-content: space-around;
+	padding: 0px;
+}
+
+#name {
+
+}
 
 li {
 	justify-content: center;
@@ -32,8 +44,10 @@ li {
 }
 
 a {
-  font-family: Myriad Pro;
+  font-family: sans-serif;
   font-size : 26px;
   color : #231F20;
   color : rgb(35, 31, 32);
 }
+
+
