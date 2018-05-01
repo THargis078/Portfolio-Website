@@ -57,11 +57,15 @@ a {
   font-size: 17px;
   color: #231F20;
   color: rgb(35, 31, 32);
-
 }
 
 #first-skill {
 
+ border: 5px red;
+	margin: 5px red;
+	padding: 5px red;
+	position: relative;
+	top: 100px;
 }
 
 #sec-skill {
