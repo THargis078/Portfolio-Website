@@ -4,13 +4,24 @@
 	padding: 0px;
 }
 
+nav {
+	display: flex;
+	position: fixed;
+	width: 100%;
+	z-index: 10px;
+	border: solid;
+	top: 0px;
+	margin-top: 5px;
+	font-size: 16px;
+	background-color: rgb(39,170,225);
+	text-align: center;
+}
+
 li {
-	justify-content: center;
-    display:inline-flex;
+	 display: inline-block;
     list-style: none;
     margin-left: 100px;
   margin-right: 50px;
-	align-content: center;
 }
 
 a {
@@ -25,5 +36,11 @@ a {
   font-style : italic;
   font-size : 42px;
   color : #231F20;
-  color : rgb(35, 31, 32);
+	position: relative;
+    left:40%;
+	top: 65px;
+	border: solid;
+	background-color: dimgray;
+	width: 25%;
+    text-align: center;
 }
