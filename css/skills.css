@@ -1,5 +1,5 @@
 body {
-	background-color: /*#43A8C3;*/
+	background-color: #43A8C3;
 }
 
 
@@ -92,4 +92,8 @@ background-color: slategray;
 	position: relative;
 	top: -93px;
 	left: 19%;
+}
+
+#secret {
+
 }
