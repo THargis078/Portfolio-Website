@@ -1,31 +1,36 @@
 body {
-	background-color: #43A8C3;
+	background-color: /*#43A8C3;*/
 }
 
-#nav-flex {
-	display: flex;
-	justify-content: space-around;
-	padding: 0px;
-}
+
 
 nav {
-	display: flex;
 	position: fixed;
-	width: 100%;
-	z-index: 10px;
+	width: 98%;
+	z-index: 10;
 	border: solid;
 	top: 0px;
 	margin-top: 5px;
 	font-size: 16px;
 	background-color: rgb(39,170,225);
-	text-align: center;
+}
+
+
+#nav-flex {
+	display: flex;
+	padding: 0px;
+	list-style: none;
+}
+
+ul {
+	justify-content: center;
 }
 
 li {
-	 display: inline-block;
-    list-style: none;
-    margin-left: 100px;
-  margin-right: 50px;
+	display: inline-block;
+   list-style: none;
+   margin-left: 100px;
+   margin-right: 50px;
 }
 
 a {
@@ -57,25 +62,34 @@ a {
   font-size: 17px;
   color: #231F20;
   color: rgb(35, 31, 32);
+	width: 220px;
+	height: 105%;
 }
 
 #first-skill {
-
- border: 5px red;
-	margin: 5px red;
-	padding: 5px red;
+	background-color: slategray;
 	position: relative;
 	top: 100px;
+	left: 20%;
 }
 
 #sec-skill {
-
+ background-color: slategray;
+	position: relative;
+	top: -43px;
+	left: 60%;
 }
 
 #third-skill {
-
+background-color: slategray;
+	position: relative;
+	top: 50px;
+	left: 60%;
 }
 
 #four-skill {
-
+background-color: slategray;
+	position: relative;
+	top: -93px;
+	left: 19%;
 }
