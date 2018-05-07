@@ -34,6 +34,8 @@ img {
 #name {
 border: 1px solid;
 	margin: auto;
+	font: Arial;
+	text-align: center;
 	padding: auto;
 	background-color: rgb(39,170,225);
     width: 50%;
