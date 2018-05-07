@@ -1,6 +1,5 @@
 body {
-	margin: 0px;
-	border: 5px red;
+	background-color: #43A8C3;
 }
 
 nav {
@@ -33,7 +32,7 @@ img {
 }
 
 #name {
-border: 1px solid red;
+border: 1px solid;
 	margin: auto;
 	padding: auto;
 	background-color: rgb(39,170,225);
