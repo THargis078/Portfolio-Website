@@ -63,9 +63,10 @@ a {
   color: #231F20;
   color: rgb(35, 31, 32);
 	width: 220px;
-	height: 105%;
+    height: 105%;
 }
 
+/* --HOW DO I USE ONE SIMPLE COMMAND TO DO THIS INSTEAD?--
 #first-extra {
 	background-color: slategray;
 	position: relative;
@@ -93,4 +94,4 @@ background-color: slategray;
 	top: -93px;
 	left: 235px;
 }
-
+*/
