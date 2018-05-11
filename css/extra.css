@@ -61,37 +61,38 @@ a {
   font-style: normal;
   font-size: 20px;
   color: #231F20;
-  color: rgb(35, 31, 32);
+/*  color: rgb(35, 31, 32);*/
 	width: 220px;
-    height: 105%;
+	border: 1px solid orange;
 }
 
-/* --HOW DO I USE ONE SIMPLE COMMAND TO DO THIS INSTEAD?--
-#first-extra {
-	background-color: slategray;
-	position: relative;
-	top: 100px;
-	left: 20%;
+ --HOW DO I USE ONE SIMPLE COMMAND TO DO THIS INSTEAD?--
+
+#box-container {
+	display: flex;
+	width: 1000px;
+	height: 1000px;
+	justify-content: space-between;
+	flex-direction: row;
+
 }
 
-#sec-extra {
- background-color: slategray;
-	position: relative;
-	top: -43px;
-	left: 60%;
-}
 
 #third-extra {
 background-color: slategray;
-	position: relative;
+
+/*
 	top: 50px;
 	left: 60%;
+*/
 }
 
 #four-extra {
 background-color: slategray;
-	position: relative;
-	top: -93px;
-	left: 235px;
+
+/*
+	top: 50px;
+	left: 60%;
+*/
 }
 */
