@@ -37,7 +37,8 @@ a {
   color: rgb(35, 31, 32);
 }
 
-#extra-header {
+
+#header {
   font-family: Myriad Pro;
   font-weight: bold;
   font-style: italic;
@@ -52,6 +53,11 @@ a {
   text-align: center;
 }
 
+#header:hover {
+	transition-duration: 500ms;
+	transition-property: font-size 500ms 0ms 400ms;
+	font-size: 50px;
+}
 .text-box {
   font-family: Verdana;
   font-weight: normal;
