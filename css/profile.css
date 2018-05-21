@@ -52,10 +52,13 @@ a {
   text-align: center;
 }
 
-#header:hover {
-
+#header {
+	font-size: 42px;
+	transition-property: font-size;
 	transition-duration: 500ms;
-	transition-property: font-size 500ms 0ms 400ms;
+}
+
+#header:hover {
 	font-size: 50px;
 }
 
