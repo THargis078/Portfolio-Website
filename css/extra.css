@@ -41,7 +41,7 @@ a:hover {
 	color: black;
 	transition-property: color;
 	transition-duration: 0ms;
-	color: crimson;
+	color: cyan;
 }
 
 a {

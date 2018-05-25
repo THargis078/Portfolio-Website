@@ -61,6 +61,13 @@ a {
   color: rgb(35, 31, 32);
 }
 
+a:hover {
+	color: black;
+	transition-property: color;
+	transition-duration: 0ms;
+	color: cyan;
+}
+
 a {
 	font-size: 26px;
 	transition-property: font-size;
