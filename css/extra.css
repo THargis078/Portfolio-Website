@@ -34,9 +34,25 @@ a {
   font-family: sans-serif;
   font-size: 26px;
   color: #231F20;
-  color: rgb(35, 31, 32);
+  color: black;
 }
 
+a:hover {
+	color: black;
+	transition-property: color;
+	transition-duration: 0ms;
+	color: crimson;
+}
+
+a {
+	font-size: 26px;
+	transition-property: font-size;
+	transition-duration: 250ms;
+}
+
+ a:hover {
+	font-size: 30px;
+}
 
 #header {
   font-family: Myriad Pro;

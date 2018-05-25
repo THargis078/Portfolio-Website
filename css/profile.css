@@ -37,6 +37,16 @@ a {
   color: rgb(35, 31, 32);
 }
 
+a {
+	font-size: 26px;
+	transition-property: font-size;
+	transition-duration: 250ms;
+}
+
+ a:hover {
+	font-size: 30px;
+}
+
 #header {
   font-family: Myriad Pro;
   font-weight: bold;
